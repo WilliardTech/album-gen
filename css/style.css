@@ -1,0 +1,18 @@
+body {
+    background-color: #232336;
+}
+h1 {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+    letter-spacing: 25px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.contentBox {
+    border: solid black 1px;
+    margin: 200px auto 0 auto;
+    width: 500px;
+}
