@@ -3,16 +3,33 @@ body {
 }
 h1 {
     color: white;
-    font-family: 'Manrope', sans-serif;
-    font-size: 25px;
-    letter-spacing: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin: 200px 0 20px 0;
+    padding-right: 0;
     text-align: center;
 }
 h2 {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    letter-spacing: 25px;
+    margin: 0 0 40px 0;
+    padding-right: 0;
     text-align: center;
 }
-.contentBox {
-    border: solid black 1px;
-    margin: 200px auto 0 auto;
-    width: 500px;
+.btnCenter {
+    text-align: center;
+}
+button {
+    background-color: #232336;
+    border: #EB994C 2px solid;
+    border-radius: 5px;
+    color: #EB994C;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+    padding-right: 0;
+    text-align: center;
 }
