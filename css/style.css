@@ -1,13 +1,23 @@
 body {
     background-color: #232336;
 }
-h1 {
+.indexH1 {
     color: white;
     font-family: 'Fjalla One', sans-serif;
     font-size: 50px;
     letter-spacing: 10px;
     margin: 200px 0 20px 0;
     padding-right: 0;
+    text-align: center;
+}
+.albumH1 {
+    color: #232336;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 10px;
+    margin-top: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
 }
 h2 {
@@ -18,6 +28,10 @@ h2 {
     margin: 0 0 40px 0;
     padding-right: 0;
     text-align: center;
+}
+a {
+    color: inherit;
+    text-decoration: none;
 }
 .btnCenter {
     text-align: center;
@@ -32,4 +46,20 @@ button {
     letter-spacing: 10px;
     padding-right: 0;
     text-align: center;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #EB994C;
+    color: #232336;
+    transition: 0.3s;
+}
+.banner {
+    background-color: white;
+    margin-top: 0;
+}
+.albumBox {
+    background-color: white;
+    height: 400px;
+    opacity: 30%;
+    width: 400px;
 }
