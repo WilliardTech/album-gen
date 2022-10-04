@@ -18,7 +18,7 @@ body {
     margin: 10px 0 10px 0;
     text-align: center;
 }
-h2 {
+.indexH2 {
     color: white;
     font-family: 'Manrope', sans-serif;
     font-size: 15px;
@@ -26,6 +26,17 @@ h2 {
     margin: 0 0 40px 0;
     padding-right: 0;
     text-align: center;
+}
+.albumH2, .albumH3 {
+    color: #232336;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+.albumH2 {
+    font-size: 25px;
+}
+.albumH3 {
+    font-size: 20px;
 }
 a {
     color: inherit;
@@ -61,11 +72,17 @@ button:hover {
 }
 .albumBox {
     background-color: white;
-    height: 400px;
+    height: 450px;
     left: 50%;
     opacity: 30%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 450px;
+}
+img {
+    display: block;
+    height: 270px;
+    margin: auto;
+    width: 270px;
 }
