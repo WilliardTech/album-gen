@@ -11,13 +11,11 @@ body {
     text-align: center;
 }
 .albumH1 {
-    color: #232336;
+    color: #EB994C;
     font-family: 'Fjalla One', sans-serif;
     font-size: 25px;
     letter-spacing: 10px;
-    margin-top: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: 10px 0 10px 0;
     text-align: center;
 }
 h2 {
@@ -54,12 +52,20 @@ button:hover {
     transition: 0.3s;
 }
 .banner {
-    background-color: white;
-    margin-top: 0;
+    background-color: none;
+    border-bottom: solid #EB994C 4px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 .albumBox {
     background-color: white;
     height: 400px;
+    left: 50%;
     opacity: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 400px;
 }
